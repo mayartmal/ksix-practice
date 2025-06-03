@@ -9,15 +9,15 @@ const CONTACTS = "/contacts.php"
 export const options = {
     stages: [
         {
-            duration: '10s',
-            target: 10,
+            duration: '10m',
+            target: 1000,
         },
         {
-            duration: '30s',
-            target: 10,
+            duration: '1h',
+            target: 1000,
         },
         {
-            duration: '10s',
+            duration: '10m',
             target: 0,
         }
     ]
